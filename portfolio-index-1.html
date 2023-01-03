@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
+        rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html #services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html #about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html #work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                The <strong>QR Generator</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">---------------------- Generate a QR code for any website you type into the text field.</p>
+            <img src="img/qr_generator.png" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>I found this project idea online and was fascinated by the idea, so I began researching how to make this QR generator a possibility. 
+                With enough research this what I came up with.
+            </p>
+                <!--Talk about the insight of the project and what you learned-->
+            <a href="https://github.com/etameklo31/Projects/blob/main/Projects/qr_code_generator.py">
+                Click here to see the code to the project
+            </a>
+            <img src="img/portfolio-01.jpg">
+        </div>
+            
+        <!--Footer-->
+        <footer class="footer">
+            <!--replace with your email-->
+            <a href="emanueltameklo31@gmail.com" class="footer__link">emanueltameklo31@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/etameklo31">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/emanuel-tameklo/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    
+    </body>
+</html>
